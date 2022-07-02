@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := lge
 
-DEVICE_PATH := device/lge/flashlmdd
+DEVICE_PATH := device/lge/alphaplus
 
 # APEX
 OVERRIDE_TARGET_FLATTEN_APEX := true
@@ -153,7 +153,7 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_BOOT_HEADER_VERSION := 2
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_SOURCE := kernel/lge/sm8150
-TARGET_KERNEL_CONFIG := vendor/aosp_flash_defconfig
+TARGET_KERNEL_CONFIG := vendor/aosp_alpha_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # Partitions
