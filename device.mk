@@ -17,10 +17,10 @@
 # Inherit proprietary blobs
 $(call inherit-product-if-exists, vendor/lge/sm8150-common/sm8150-common-vendor.mk)
 $(call inherit-product-if-exists, vendor/lge/flash-common/flash-common-vendor.mk)
-$(call inherit-product-if-exists, vendor/lge/flashlmdd/flashlmdd-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/alphaplus/alphaplus-vendor.mk)
 
-DEVICE_PATH := device/lge/flashlmdd
-DEVICE_NAME := flashlmdd
+DEVICE_PATH := device/lge/alphaplus
+DEVICE_NAME := alphaplus
 
 # define hardware platform
 PRODUCT_BOARD_PLATFORM := msmnile
