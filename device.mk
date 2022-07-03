@@ -16,7 +16,7 @@
 
 # Inherit proprietary blobs
 $(call inherit-product-if-exists, vendor/lge/sm8150-common/sm8150-common-vendor.mk)
-$(call inherit-product-if-exists, vendor/lge/flash-common/flash-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/alpha-common/alpha-common-vendor.mk)
 $(call inherit-product-if-exists, vendor/lge/alphaplus/alphaplus-vendor.mk)
 
 DEVICE_PATH := device/lge/alphaplus
