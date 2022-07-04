@@ -88,8 +88,8 @@ ro.vendor.lge.dev.fmode=0
 ro.vendor.lge.dev.fmode_exif=0
 vendor.lge.faceprint.inform.camera=0
 vendor.lge.faceprint.use.camera=0
-ro.vendor.lge.aux.camera=2
-ro.vendor.lge.physical.camera=5
+ro.vendor.lge.aux.camera=1
+ro.vendor.lge.physical.camera=4
 
 # Charger
 persist.vendor.ctm.disallowed=1
