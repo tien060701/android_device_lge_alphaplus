@@ -1,2 +1,2 @@
-# android_device_lge_flashlmdd
+# android_device_lge_alphaplus
 Remove livedisplay
