@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit from flashlmdd device
+# Inherit from alphaplus device
 $(call inherit-product, device/lge/alphaplus/device.mk)
 
 # Inherit some common AOSP stuff.
